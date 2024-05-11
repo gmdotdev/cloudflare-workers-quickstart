@@ -27,11 +27,10 @@ For a more complete using pnpm workspaces and a monorepo with a Next.js site dep
 3. Start the development server(s)
 
 ```bash
-  cd apps/api && pnpm dev
-  cd apps/web && pnpm dev
+  pnpm dev
 ```
 
-That's it! You should now have the API and web server running locally.
+That's it! You should now have the API running locally.
 
 ## Deploying to Cloudflare
 
