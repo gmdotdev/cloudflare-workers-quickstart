@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "deploy": "wrangler deploy src/app.ts --minify --compatibility-flags='nodejs_compat' --tsconfig='tsconfig.json'",
     "dev": "wrangler dev src/app.ts --compatibility-flags='nodejs_compat'"
   },
   "devDependencies": {
