@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev src/index.ts --compatibility-flags='nodejs_compat'"
+    "dev": "wrangler dev src/app.ts --compatibility-flags='nodejs_compat'"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.6.3",
